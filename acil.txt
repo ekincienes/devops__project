@@ -1,0 +1,1 @@
+stashe attigimiz islemden once acil yapilmasi gereken is, önce bunu commitliyoruz.
