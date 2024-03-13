@@ -1,0 +1,7 @@
+services:
+  html-app:
+    container_name: html_container1 
+    image: html-app-deneme1  # yeni generate ettigimiz image
+    ports:
+      - "27016:80"  # docker host cihazinda 80 portunu docker containerindaki 80 portuna bagla
+    restart: on-failure  # Restart etme kurali
